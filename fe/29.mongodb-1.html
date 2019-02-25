@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>什么是MongoDB | Myfun&#39;s Blog</title>
+    <meta name="description" content="MongoDB">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="keywords" content="MongoDB">
+    <link rel="preload" href="/assets/css/0.styles.6bc9bf16.css" as="style"><link rel="preload" href="/assets/js/app.35b69267.js" as="script"><link rel="preload" href="/assets/js/60.0cedb385.js" as="script"><link rel="prefetch" href="/assets/js/10.a2f6c6ac.js"><link rel="prefetch" href="/assets/js/100.24b9a366.js"><link rel="prefetch" href="/assets/js/101.085f0585.js"><link rel="prefetch" href="/assets/js/102.66d5674f.js"><link rel="prefetch" href="/assets/js/103.7f71429c.js"><link rel="prefetch" href="/assets/js/104.13b0f535.js"><link rel="prefetch" href="/assets/js/105.0a093e85.js"><link rel="prefetch" href="/assets/js/106.a4a1db62.js"><link rel="prefetch" href="/assets/js/107.2634aacf.js"><link rel="prefetch" href="/assets/js/108.b393516d.js"><link rel="prefetch" href="/assets/js/109.769b78fb.js"><link rel="prefetch" href="/assets/js/11.fb483cc4.js"><link rel="prefetch" href="/assets/js/12.24a41994.js"><link rel="prefetch" href="/assets/js/13.a4762474.js"><link rel="prefetch" href="/assets/js/14.4a737bc9.js"><link rel="prefetch" href="/assets/js/15.548f4e99.js"><link rel="prefetch" href="/assets/js/16.b0d2654c.js"><link rel="prefetch" href="/assets/js/17.d43ab467.js"><link rel="prefetch" href="/assets/js/18.0c8f5f87.js"><link rel="prefetch" href="/assets/js/19.19ef59f8.js"><link rel="prefetch" href="/assets/js/2.436a35aa.js"><link rel="prefetch" href="/assets/js/20.24296203.js"><link rel="prefetch" href="/assets/js/21.c486888f.js"><link rel="prefetch" href="/assets/js/22.7e2305f9.js"><link rel="prefetch" href="/assets/js/23.e55bab1b.js"><link rel="prefetch" href="/assets/js/24.1468433c.js"><link rel="prefetch" href="/assets/js/25.6d82837f.js"><link rel="prefetch" href="/assets/js/26.3c4b2f18.js"><link rel="prefetch" href="/assets/js/27.21725a4f.js"><link rel="prefetch" href="/assets/js/28.db16c479.js"><link rel="prefetch" href="/assets/js/29.cb9512e5.js"><link rel="prefetch" href="/assets/js/3.5c82c0f7.js"><link rel="prefetch" href="/assets/js/30.a4c25096.js"><link rel="prefetch" href="/assets/js/31.81741530.js"><link rel="prefetch" href="/assets/js/32.da6d2ac6.js"><link rel="prefetch" href="/assets/js/33.f6164ecd.js"><link rel="prefetch" href="/assets/js/34.0344ad22.js"><link rel="prefetch" href="/assets/js/35.07d4c8d3.js"><link rel="prefetch" href="/assets/js/36.2c6adcff.js"><link rel="prefetch" href="/assets/js/37.ceb5e95e.js"><link rel="prefetch" href="/assets/js/38.d39e96e5.js"><link rel="prefetch" href="/assets/js/39.fcf34164.js"><link rel="prefetch" href="/assets/js/4.267db630.js"><link rel="prefetch" href="/assets/js/40.bdf31768.js"><link rel="prefetch" href="/assets/js/41.cc61eccd.js"><link rel="prefetch" href="/assets/js/42.042e4349.js"><link rel="prefetch" href="/assets/js/43.b385d348.js"><link rel="prefetch" href="/assets/js/44.7669f3e2.js"><link rel="prefetch" href="/assets/js/45.2fb532f4.js"><link rel="prefetch" href="/assets/js/46.0cc86442.js"><link rel="prefetch" href="/assets/js/47.30448b83.js"><link rel="prefetch" href="/assets/js/48.8893a5ed.js"><link rel="prefetch" href="/assets/js/49.ed7be1ae.js"><link rel="prefetch" href="/assets/js/5.d8a5933e.js"><link rel="prefetch" href="/assets/js/50.e4af394b.js"><link rel="prefetch" href="/assets/js/51.502ca2a7.js"><link rel="prefetch" href="/assets/js/52.f9768ea6.js"><link rel="prefetch" href="/assets/js/53.0c762369.js"><link rel="prefetch" href="/assets/js/54.dad23d00.js"><link rel="prefetch" href="/assets/js/55.4298d6a4.js"><link rel="prefetch" href="/assets/js/56.d8505fa7.js"><link rel="prefetch" href="/assets/js/57.63d197ce.js"><link rel="prefetch" href="/assets/js/58.ae9a3671.js"><link rel="prefetch" href="/assets/js/59.cb04d7cd.js"><link rel="prefetch" href="/assets/js/6.a83fef9a.js"><link rel="prefetch" href="/assets/js/61.a5c3f820.js"><link rel="prefetch" href="/assets/js/62.fc2d969d.js"><link rel="prefetch" href="/assets/js/63.53f087e3.js"><link rel="prefetch" href="/assets/js/64.9384bc9a.js"><link rel="prefetch" href="/assets/js/65.bb5db767.js"><link rel="prefetch" href="/assets/js/66.86940f42.js"><link rel="prefetch" href="/assets/js/67.37215862.js"><link rel="prefetch" href="/assets/js/68.e0c14875.js"><link rel="prefetch" href="/assets/js/69.276f0d65.js"><link rel="prefetch" href="/assets/js/7.7e7cde5e.js"><link rel="prefetch" href="/assets/js/70.0fb38ae4.js"><link rel="prefetch" href="/assets/js/71.7c824b27.js"><link rel="prefetch" href="/assets/js/72.bc39810c.js"><link rel="prefetch" href="/assets/js/73.9917d9a4.js"><link rel="prefetch" href="/assets/js/74.7912f7da.js"><link rel="prefetch" href="/assets/js/75.c193b7ec.js"><link rel="prefetch" href="/assets/js/76.ecd4e536.js"><link rel="prefetch" href="/assets/js/77.842c5aba.js"><link rel="prefetch" href="/assets/js/78.0a67366d.js"><link rel="prefetch" href="/assets/js/79.324df7d4.js"><link rel="prefetch" href="/assets/js/8.7063c274.js"><link rel="prefetch" href="/assets/js/80.68c6326b.js"><link rel="prefetch" href="/assets/js/81.a7df7b21.js"><link rel="prefetch" href="/assets/js/82.abd9c0c2.js"><link rel="prefetch" href="/assets/js/83.fd0d8457.js"><link rel="prefetch" href="/assets/js/84.148b432c.js"><link rel="prefetch" href="/assets/js/85.32148693.js"><link rel="prefetch" href="/assets/js/86.7dc5fe11.js"><link rel="prefetch" href="/assets/js/87.bd1be392.js"><link rel="prefetch" href="/assets/js/88.2c0b86aa.js"><link rel="prefetch" href="/assets/js/89.3038cc8d.js"><link rel="prefetch" href="/assets/js/9.5cab2997.js"><link rel="prefetch" href="/assets/js/90.fb4057a1.js"><link rel="prefetch" href="/assets/js/91.4aa5adaf.js"><link rel="prefetch" href="/assets/js/92.aea0a62e.js"><link rel="prefetch" href="/assets/js/93.e2d0e9a7.js"><link rel="prefetch" href="/assets/js/94.a9e33a20.js"><link rel="prefetch" href="/assets/js/95.7c55098e.js"><link rel="prefetch" href="/assets/js/96.c8dfe1c0.js"><link rel="prefetch" href="/assets/js/97.35fc7df3.js"><link rel="prefetch" href="/assets/js/98.551b3ede.js"><link rel="prefetch" href="/assets/js/99.a8f5ffc4.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6bc9bf16.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="wrap"><div class="theme-container container no-sidebar"><header class="navbar"><div class="nav-header"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" class="logo"> <span class="site-name can-hide">
+        Myfun's Blog
+      </span></a> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><a href="/interview/" class="nav-link">InterviewMap</a></div><div class="nav-item"><a href="https://zhangximufeng.github.io/css_tricks/" target="_blank" rel="noopener noreferrer" class="nav-link">CSS_Tricks</a></div><div class="nav-item"><a href="https://zhangximufeng.github.io/js_tricks/" target="_blank" rel="noopener noreferrer" class="nav-link">JS_Tricks</a></div><div class="nav-item"><a href="/tags/" class="nav-link">Tags</a></div><div class="nav-item"><a href="https://github.com/zhangximufeng" target="_blank" rel="noopener noreferrer" class="nav-link">Github</a></div><div class="nav-item"><a href="https://zhangximufeng.github.io/animate_resume_ts/" target="_blank" rel="noopener noreferrer" class="nav-link">About</a></div> <!----></nav> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><a href="/interview/" class="nav-link">InterviewMap</a></div><div class="nav-item"><a href="https://zhangximufeng.github.io/css_tricks/" target="_blank" rel="noopener noreferrer" class="nav-link">CSS_Tricks</a></div><div class="nav-item"><a href="https://zhangximufeng.github.io/js_tricks/" target="_blank" rel="noopener noreferrer" class="nav-link">JS_Tricks</a></div><div class="nav-item"><a href="/tags/" class="nav-link">Tags</a></div><div class="nav-item"><a href="https://github.com/zhangximufeng" target="_blank" rel="noopener noreferrer" class="nav-link">Github</a></div><div class="nav-item"><a href="https://zhangximufeng.github.io/animate_resume_ts/" target="_blank" rel="noopener noreferrer" class="nav-link">About</a></div> <!----></nav> <!----></div> <div class="page-container"><div><div class="page card"><div class="content-header"><!----> <span class="page-timestamp">2018-09-29</span></div> <div class="content"><p></p><div class="table-of-contents"><ul><li><a href="#什么是mongodb">什么是MongoDB</a><ul><li><a href="#_2-mongodb安装-t12-mongodb安装">2\. MongoDB安装 #</a></li><li><a href="#_3-mongodb启动与连接-t43-mongodb启动与连接">3\. mongodb启动与连接 #</a></li><li><a href="#_4-配置mongodb服务-t74-配置mongodb服务">4\. 配置Mongodb服务 #</a></li><li><a href="#_5-mongodb基本概念-t105-mongodb基本概念">5\. MongoDB基本概念 #</a></li><li><a href="#_6-数据库操作-t116-数据库操作">6\. 数据库操作 #</a></li><li><a href="#_7-集合操作-t167-集合操作">7\. 集合操作 #</a></li><li><a href="#_8-插入文档-t208-插入文档">8\. 插入文档 #</a></li><li><a href="#_9-更新文档-t239-更新文档">9\. 更新文档 #</a></li><li><a href="#_10-文档的删除-t3610-文档的删除">10\. 文档的删除 #</a></li><li><a href="#_11-查询文档-t3711-查询文档">11\. 查询文档 #</a></li><li><a href="#_12-条件操作符-t4812-条件操作符">12\. 条件操作符 #</a></li><li><a href="#_13-与和或-t5813-与和或">13\. 与和或 #</a></li><li><a href="#_14-分页查询-t6214-分页查询">14\. 分页查询 #</a></li><li><a href="#附录-t71附录">附录 #</a></li><li><a href="#附录-t73附录">附录 #</a></li><li><a href="#集合命令-t75集合命令">集合命令 #</a></li></ul></li></ul></div><p></p> <h1 id="什么是mongodb"><a href="#什么是mongodb" aria-hidden="true" class="header-anchor">#</a> 什么是MongoDB</h1> <hr> <ul><li>MongoDB是一个基于分布式文件存储的开源数据库系统</li> <li>MongoDB 将数据存储为一个文档，数据结构由键值(key=&gt;value)对组成。MongoDB 文档类似于 JSON 对象。字段值可以包含其他文档，数组及文档数组。</li></ul> <h2 id="_2-mongodb安装-t12-mongodb安装"><a href="#_2-mongodb安装-t12-mongodb安装" aria-hidden="true" class="header-anchor">#</a> 2. MongoDB安装 [#](#t12. MongoDB安装)</h2> <h3 id="_2-1-windows安装-t22-1-windows安装"><a href="#_2-1-windows安装-t22-1-windows安装" aria-hidden="true" class="header-anchor">#</a> 2.1 windows安装 [#](#t22.1 windows安装)</h3> <p><a href="https://www.mongodb.org/downloads" target="_blank" rel="noopener noreferrer">Windows官方安装指南<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <ul><li><p>mongodb32位安装版 链接: <a href="https://pan.baidu.com/s/1SHJ1vre_CQOE3u-W0zniqQ" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1SHJ1vre_CQOE3u-W0zniqQ<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 密码: chan</p></li> <li><p>MongoDB64位绿色版 链接: <a href="https://pan.baidu.com/s/1EkAB2SrcU1mfMfff_WDxtA" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1EkAB2SrcU1mfMfff_WDxtA<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 密码: w913</p></li> <li><p>mongo客户端 链接: <a href="https://pan.baidu.com/s/1YFxLZ-55D-WFR8os2fXN0A" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1YFxLZ-55D-WFR8os2fXN0A<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 密码: 61qd</p></li></ul> <h3 id="_2-2-mac安装-t32-2-mac安装"><a href="#_2-2-mac安装-t32-2-mac安装" aria-hidden="true" class="header-anchor">#</a> 2.2 mac安装 [#](#t32.2 mac安装)</h3> <p><a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/" target="_blank" rel="noopener noreferrer">Mac官方安装指南<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <ol><li><p>先安装homebrew</p> <pre><code>http://brew.sh/
+</code></pre></li> <li><p>使用brew安装mongodb</p> <pre><code>brew install mongodb
+</code></pre></li> <li><p>再安装可视化工具 <a href="https://robomongo.org/" target="_blank" rel="noopener noreferrer">Robomongo<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li></ol> <h2 id="_3-mongodb启动与连接-t43-mongodb启动与连接"><a href="#_3-mongodb启动与连接-t43-mongodb启动与连接" aria-hidden="true" class="header-anchor">#</a> 3. mongodb启动与连接 [#](#t43. mongodb启动与连接)</h2> <h3 id="_3-1-windows启动服务器端-t53-1-windows启动服务器端"><a href="#_3-1-windows启动服务器端-t53-1-windows启动服务器端" aria-hidden="true" class="header-anchor">#</a> 3.1 windows启动服务器端 [#](#t53.1 windows启动服务器端)</h3> <ol><li><p>找到mongodb安装目录,一般是 <code>C:\Program Files\MongoDB 2.6 Standard\bin</code></p></li> <li><p>按下Shift+鼠标右键,选择在此处打开命令窗口 <img src="assets/3.mongodb-1.png" alt></p></li> <li><p>在除C盘外的盘符新建一个空目录,如 <code>D:\Mongodb\data</code></p></li> <li><p>在命令行中输入<code>mongod --dbpath=刚创建的空目录</code>,如</p> <pre><code>mongod --dbpath=D:\Mongodb\data
+</code></pre></li> <li><p>再按回车键 <img src="assets/3.mongodb-2.png" alt></p></li> <li><p>如果出现<code>waiting for connections on port 27017</code>就表示<strong>启动成功</strong>,已经在27017端口上监听了客户端的请求</p></li> <li><p>注意：<code>--dbpath</code>后的值表示数据库文件的存储路径,而且后面的路径必须事先创建好，必须已经<strong>存在</strong>，否则服务开启失败</p></li> <li><p>注意：这个命令窗体绝对<strong>不能关</strong>,关闭这个窗口就相当于停止了<code>mongodb</code>服务</p></li></ol> <h3 id="_3-2-启动客户端连接服务器-t63-2-启动客户端连接服务器"><a href="#_3-2-启动客户端连接服务器-t63-2-启动客户端连接服务器" aria-hidden="true" class="header-anchor">#</a> 3.2 启动客户端连接服务器 [#](#t63.2 启动客户端连接服务器)</h3> <ol><li><p>找到mongodb安装目录,一般是 <code>C:\Program Files\MongoDB 2.6 Standard\bin</code></p></li> <li><p>按下Shift+鼠标右键,选择在此处打开命令窗口 <img src="assets/3.mongodb-1-20180820154556524.png" alt></p></li> <li><p>命令窗体中输入 mongo --host=127.0.0.1 或者 mongo 按回车键</p> <blockquote><p>备注：--host后的值表示服务器的ip地址 备注： --host=127.0.0.1 表示的就是本地服务器,每次数据库都会默认连接test数据库</p></blockquote></li></ol> <hr> <p><img src="assets/3.mongodb-4.png" alt></p> <h2 id="_4-配置mongodb服务-t74-配置mongodb服务"><a href="#_4-配置mongodb服务-t74-配置mongodb服务" aria-hidden="true" class="header-anchor">#</a> 4. 配置Mongodb服务 [#](#t74. 配置Mongodb服务)</h2> <h3 id="_4-1-删除服务-t84-1-删除服务"><a href="#_4-1-删除服务-t84-1-删除服务" aria-hidden="true" class="header-anchor">#</a> 4.1 删除服务 [#](#t84.1 删除服务)</h3> <pre><code>sc delete mongodb
+</code></pre> <h3 id="_4-2-添加服务-t94-2-添加服务"><a href="#_4-2-添加服务-t94-2-添加服务" aria-hidden="true" class="header-anchor">#</a> 4.2 添加服务 [#](#t94.2 添加服务)</h3> <pre><code>mongod.exe --dbpath E:\mdata --logpath E:\mlog --logappend --directoryperdb --serviceName mongodb --install
+
+net start mongodb
+net stop mongodb
+</code></pre> <h2 id="_5-mongodb基本概念-t105-mongodb基本概念"><a href="#_5-mongodb基本概念-t105-mongodb基本概念" aria-hidden="true" class="header-anchor">#</a> 5. MongoDB基本概念 [#](#t105. MongoDB基本概念)</h2> <ul><li><strong>数据库</strong> MongoDB的单个实例可以容纳<strong>多个</strong>独立的数据库，比如一个学生管理系统就可以对应一个数据库实例</li> <li><strong>集合</strong> 数据库是由集合组成的,一个集合用来表示一个<strong>实体</strong>,如学生集合</li> <li><strong>文档</strong> 集合是由文档组成的，一个文档表示一条<strong>记录</strong>,比如一位同学张三就是一个文档</li></ul> <p><img src="assets/mongodbstructure.jpg" alt> <img src="assets/mongovue.png" alt></p> <h2 id="_6-数据库操作-t116-数据库操作"><a href="#_6-数据库操作-t116-数据库操作" aria-hidden="true" class="header-anchor">#</a> 6. 数据库操作 [#](#t116. 数据库操作)</h2> <h3 id="_6-1-使用数据库-t126-1-使用数据库"><a href="#_6-1-使用数据库-t126-1-使用数据库" aria-hidden="true" class="header-anchor">#</a> 6.1 使用数据库 [#](#t126.1 使用数据库)</h3> <p><strong>语法</strong></p> <pre><code>use database_name      database_name代表数据库的名字
+</code></pre> <p>注：如果此数据库存在，则切换到此数据库下,如果此数据库还不存在也可以切过来</p> <p><strong>实例</strong> 切换到 <code>school</code>数据库下</p> <h3 id="_6-2-查看所有数据库-t136-2-查看所有数据库"><a href="#_6-2-查看所有数据库-t136-2-查看所有数据库" aria-hidden="true" class="header-anchor">#</a> 6.2 查看所有数据库 [#](#t136.2 查看所有数据库)</h3> <p><strong>语法</strong></p> <pre><code>show dbs
+</code></pre> <blockquote><p>备注: 我们刚创建的数据库<code>school</code>如果不在列表内， 要显示它，我们需要向<code>school</code>数据库插入一些数据</p></blockquote> <pre><code>db.students.insert({name:'zxmf',age:1});
+</code></pre> <h3 id="_6-3-查看当前使用的数据库-t146-3-查看当前使用的数据库"><a href="#_6-3-查看当前使用的数据库-t146-3-查看当前使用的数据库" aria-hidden="true" class="header-anchor">#</a> 6.3 查看当前使用的数据库 [#](#t146.3 查看当前使用的数据库)</h3> <p><strong>语法</strong></p> <pre><code>db 或 db.getName()
+</code></pre> <blockquote><p>注：db代表的是当前数据库 也就是school这个数据库</p> <h3 id="_6-4-删除数据库-t156-4-删除数据库"><a href="#_6-4-删除数据库-t156-4-删除数据库" aria-hidden="true" class="header-anchor">#</a> 6.4 删除数据库 [#](#t156.4 删除数据库)</h3> <p><strong>语法</strong></p> <pre><code>db.dropDatabase()
+</code></pre></blockquote> <h2 id="_7-集合操作-t167-集合操作"><a href="#_7-集合操作-t167-集合操作" aria-hidden="true" class="header-anchor">#</a> 7. 集合操作 [#](#t167. 集合操作)</h2> <h3 id="_7-1-查看集合帮助-t177-1-查看集合帮助"><a href="#_7-1-查看集合帮助-t177-1-查看集合帮助" aria-hidden="true" class="header-anchor">#</a> 7.1 查看集合帮助 [#](#t177.1 查看集合帮助)</h3> <p><strong>语法</strong></p> <pre><code>db.students.help()
+</code></pre> <h3 id="_7-2-查看数据库下的集合-t187-2-查看数据库下的集合"><a href="#_7-2-查看数据库下的集合-t187-2-查看数据库下的集合" aria-hidden="true" class="header-anchor">#</a> 7.2 查看数据库下的集合 [#](#t187.2 查看数据库下的集合)</h3> <p><strong>语法</strong></p> <pre><code>show collections
+</code></pre> <p><strong>实例</strong> <img src="assets/3.mongodb-11.png" alt></p> <h3 id="_7-3-创建集合-t197-3-创建集合"><a href="#_7-3-创建集合-t197-3-创建集合" aria-hidden="true" class="header-anchor">#</a> 7.3 创建集合 [#](#t197.3 创建集合)</h3> <p><strong>创建一个空集合</strong></p> <pre><code>db.createCollection(collection_Name)
+</code></pre> <ul><li>collection_Name集合的名称</li></ul> <p><strong>创建集合并插入一个文档</strong></p> <ul><li><p>collection_Name集合的名称</p></li> <li><p>document要插入的文档</p> <p>db.collection_Name.insert(document)</p></li></ul> <h2 id="_8-插入文档-t208-插入文档"><a href="#_8-插入文档-t208-插入文档" aria-hidden="true" class="header-anchor">#</a> 8. 插入文档 [#](#t208. 插入文档)</h2> <h3 id="_8-1-insert-t218-1-insert"><a href="#_8-1-insert-t218-1-insert" aria-hidden="true" class="header-anchor">#</a> 8.1 insert [#](#t218.1 insert)</h3> <p><strong>语法</strong></p> <pre><code> db.collection_name.insert(document)
+`
+</code></pre> <p><strong>参数</strong></p> <ul><li>collection_name 集合的名字</li> <li>document 插入的文档</li></ul> <blockquote><p>每当插入一条新文档的时候mongodb会自动为此文档生成一个<code>_id</code>属性,_id一定是唯一的，用来唯一标识一个文档 _id也可以直接指定，但如果数据库中此集合下已经有此_id的话插入会失败</p></blockquote> <pre><code>&gt; db.students.insert({_id:1,name:'zxmf',age:1});
+WriteResult({ &quot;nInserted&quot; : 1 })
+&gt; db.students.insert({_id:1,name:'zxmf',age:1});
+</code></pre> <h3 id="_8-2-save-t228-2-save"><a href="#_8-2-save-t228-2-save" aria-hidden="true" class="header-anchor">#</a> 8.2 save [#](#t228.2 save)</h3> <p><strong>语法</strong></p> <pre><code>db.collection_name.save(document)
+</code></pre> <p><strong>参数</strong></p> <ul><li>collection_name 集合的名字</li> <li>document 插入的文档</li></ul> <blockquote><p>注：如果不指定 _id 字段 save() 方法类似于 insert() 方法。如果指定 _id 字段，则会更新该 _id 的数据。</p></blockquote> <p><strong>实例</strong></p> <pre><code>&gt; db.students.save({_id:1,name:'zxmf',age:1});
+WriteResult({ &quot;nMatched&quot; : 1, &quot;nUpserted&quot; : 0, &quot;nModified&quot; : 0 })
+&gt; db.students.save({_id:1,name:'zxmf',age:100});
+WriteResult({ &quot;nMatched&quot; : 1, &quot;nUpserted&quot; : 0, &quot;nModified&quot; : 1 })
+</code></pre> <h2 id="_9-更新文档-t239-更新文档"><a href="#_9-更新文档-t239-更新文档" aria-hidden="true" class="header-anchor">#</a> 9. 更新文档 [#](#t239. 更新文档)</h2> <p><strong>语法</strong></p> <pre><code>db.collection.update(
+   &lt;query&gt;,
+   &lt;updateObj&gt;,
+   {
+     upsert: &lt;boolean&gt;,
+     multi: &lt;boolean&gt;
+   }
+)
+</code></pre> <p><strong>参数说明</strong></p> <ul><li>query 查询条件,指定要更新符合哪些条件的文档</li> <li>update 更新后的对象或指定一些更新的操作符
+<ul><li>$set直接指定更新后的值</li> <li>$inc在原基础上累加</li></ul></li> <li>upsert 可选，这个参数的意思是，如果不存在符合条件的记录时是否插入updateObj. 默认是false,不插入。</li> <li>multi 可选，mongodb 默认只更新找到的第一条记录，如果这个参数为true,就更新所有符合条件的记录。</li></ul> <p><strong>实例</strong> 将<code>students</code>集合中数据中<code>name</code>是zxmf2的值修改为zxmf22</p> <pre><code>&gt; db.students.update({name:'zxmf2'},{age:300});
+WriteResult({ &quot;nMatched&quot; : 1, &quot;nUpserted&quot; : 0, &quot;nModified&quot; : 1 })
+</code></pre> <blockquote><p>注：如果有多条name是zxmf2的数据只更新一条,如果想全部更新需要指定<code>{multi:true}</code>的参数</p> <pre><code>db.students.update({name:'zxmf2'},{$set:{age:300}},{multi:true});
+WriteResult({ &quot;nMatched&quot; : 2, &quot;nUpserted&quot; : 0, &quot;nModified&quot; : 1 })
+</code></pre></blockquote> <h3 id="_9-1-set"><a href="#_9-1-set" aria-hidden="true" class="header-anchor">#</a> 9.1 $set</h3> <p>直接指定更新后的值</p> <h3 id="_9-2-inc"><a href="#_9-2-inc" aria-hidden="true" class="header-anchor">#</a> 9.2 $inc</h3> <p>在原基础上累加</p> <h3 id="_9-3-unset"><a href="#_9-3-unset" aria-hidden="true" class="header-anchor">#</a> 9.3 $unset</h3> <p>删除指定的键</p> <h3 id="_9-4-upsert"><a href="#_9-4-upsert" aria-hidden="true" class="header-anchor">#</a> 9.4 upsert</h3> <p>插入或更新</p> <h3 id="_9-5-multi"><a href="#_9-5-multi" aria-hidden="true" class="header-anchor">#</a> 9.5 multi</h3> <p>批量插入</p> <h3 id="_9-6-push"><a href="#_9-6-push" aria-hidden="true" class="header-anchor">#</a> 9.6 $push</h3> <p>向数组中添加元素</p> <pre><code>var result = db.student.update({name:'张三'},{
+    $push:{&quot;hobbys&quot;:&quot;smoking&quot;}
+});
+</code></pre> <h3 id="_9-7-ne"><a href="#_9-7-ne" aria-hidden="true" class="header-anchor">#</a> 9.7 $ne</h3> <pre><code>db.student.update({name:'张三',friends:{$ne:'Nami'}},{
+    $push:{&quot;friends&quot;:&quot;Nami&quot;}
+});
+</code></pre> <h3 id="_9-8-addtoset"><a href="#_9-8-addtoset" aria-hidden="true" class="header-anchor">#</a> 9.8 $addToSet</h3> <pre><code>db.student.update({name:'张三'},{$addToSet:{friends:&quot;Wusopu&quot;}});
+</code></pre> <h3 id="_9-9-each"><a href="#_9-9-each" aria-hidden="true" class="header-anchor">#</a> 9.9 $each</h3> <pre><code>let newFriends = [&quot;A&quot;,'B'];
+var result = db.student.update({name:'张三'},{$addToSet:{friends:{$each:newFriends}}});
+</code></pre> <h3 id="_9-10-pop"><a href="#_9-10-pop" aria-hidden="true" class="header-anchor">#</a> 9.10 $pop</h3> <pre><code>db.student.update({name:'张三'},{$pop:{
+    friends:1
+}});
+</code></pre> <h3 id="_9-11-修改指定索引元素-t349-11-修改指定索引元素"><a href="#_9-11-修改指定索引元素-t349-11-修改指定索引元素" aria-hidden="true" class="header-anchor">#</a> 9.11 修改指定索引元素 [#](#t349.11 修改指定索引元素)</h3> <pre><code> db.student.update({name:'张三'},{$set:{
+    &quot;friends.1&quot;:&quot;Nami2&quot;
+}});
+</code></pre> <h3 id="_9-12-runcommand-t359-12-runcommand"><a href="#_9-12-runcommand-t359-12-runcommand" aria-hidden="true" class="header-anchor">#</a> 9.12 runCommand [#](#t359.12  runCommand)</h3> <pre><code> var modify = {
+    findAndModify:'student',
+    query:{name:'张三'},
+    update:{$set:{age:100}},
+    fields:{name:'1'},
+    sort:true,
+    new:true //返回修改后的值
+}
+
+var result = db.runCommand(modify);
+printjson(result);
+</code></pre> <h2 id="_10-文档的删除-t3610-文档的删除"><a href="#_10-文档的删除-t3610-文档的删除" aria-hidden="true" class="header-anchor">#</a> 10. 文档的删除 [#](#t3610. 文档的删除)</h2> <p>remove方法是用来移除集合中的数据</p> <p><strong>语法</strong></p> <pre><code>db.collection.remove(
+   &lt;query&gt;,
+   {
+     justOne: &lt;boolean&gt;
+   }
+)
+</code></pre> <p><strong>参数说明</strong></p> <ul><li>query :（可选）删除的文档的条件。</li> <li>justOne : （可选）如果设为 true 或 1，则只删除匹配到的多个文档中的第一个</li></ul> <p><strong>实例</strong> 删除worker集合里name是zxmf2的所有文档数据</p> <pre><code>&gt; db.students.remove({name:'zxmf2'});
+WriteResult({ &quot;nRemoved&quot; : 2 })
+</code></pre> <p>即使匹配多条也只删除一条</p> <pre><code>&gt; db.students.remove({name:&quot;zxmf2&quot;},{justOne:true})
+WriteResult({ &quot;nRemoved&quot; : 1 })
+</code></pre> <h2 id="_11-查询文档-t3711-查询文档"><a href="#_11-查询文档-t3711-查询文档" aria-hidden="true" class="header-anchor">#</a> 11. 查询文档 [#](#t3711. 查询文档)</h2> <h3 id="_11-1-find-t3811-1-find"><a href="#_11-1-find-t3811-1-find" aria-hidden="true" class="header-anchor">#</a> 11.1 find [#](#t3811.1 find)</h3> <p><strong>语法</strong></p> <pre><code>db.collection_name.find()
+</code></pre> <p><strong>参数</strong></p> <ul><li>collection_name 集合的名字</li></ul> <p><strong>实例</strong> 查询students下所有的文档</p> <pre><code>db.students.find()
+</code></pre> <h3 id="_11-2-查询指定列-t3911-2-查询指定列"><a href="#_11-2-查询指定列-t3911-2-查询指定列" aria-hidden="true" class="header-anchor">#</a> 11.2 查询指定列 [#](#t3911.2 查询指定列)</h3> <p><strong>语法</strong></p> <pre><code>db.collection_name.find({queryWhere},{key:1,key:1})
+</code></pre> <p><strong>参数列表</strong></p> <ul><li>collection_name 集合的名字</li> <li>queryWhere 参阅查询条件操作符</li> <li>key 指定要返回的列</li> <li>1 表示要显示</li></ul> <p><strong>实例</strong> 只返回显示age列</p> <pre><code>&gt; db.students.find({},{age:1});
+</code></pre> <h3 id="_11-3-findone-t4011-3-findone"><a href="#_11-3-findone-t4011-3-findone" aria-hidden="true" class="header-anchor">#</a> 11.3 findOne [#](#t4011.3 findOne)</h3> <p>查询匹配结果的第一条数据 <strong>语法</strong></p> <pre><code>db.collection_name.findOne()
+</code></pre> <p><strong>实例</strong></p> <pre><code>db.students.findOne()
+</code></pre> <h3 id="_11-4-in"><a href="#_11-4-in" aria-hidden="true" class="header-anchor">#</a> 11.4 $in</h3> <pre><code>db.student.find({age:{$in:[30,100]}},{name:1,age:1});
+</code></pre> <h3 id="_11-5-nin"><a href="#_11-5-nin" aria-hidden="true" class="header-anchor">#</a> 11.5 $nin</h3> <pre><code>db.student.find({age:{$nin:[30,100]}},{name:1,age:1});
+</code></pre> <h3 id="_11-6-nin"><a href="#_11-6-nin" aria-hidden="true" class="header-anchor">#</a> 11.6 $nin</h3> <pre><code>db.student.find({age:{$in:[30,100]}},{name:1,age:1});
+</code></pre> <h3 id="_11-7-not"><a href="#_11-7-not" aria-hidden="true" class="header-anchor">#</a> 11.7 $not</h3> <pre><code>db.student.find({age:{$not:{$gte:20,$lte:30}}});
+</code></pre> <h3 id="_11-8-array"><a href="#_11-8-array" aria-hidden="true" class="header-anchor">#</a> 11.8 array</h3> <pre><code>//按所有元素匹配
+//let result = db.student.find({friends:[ &quot;Lufy&quot;, &quot;Nami2&quot;, &quot;Wusopu&quot;, &quot;A&quot; ]});
+//匹配一条
+//let result = db.student.find({friends:&quot;A&quot;});
+//$all
+//let result = db.student.find({friends:{$all:['A',&quot;Lufy&quot;]}});
+//$in
+//let result = db.student.find({friends:{$in:['A',&quot;Lufy&quot;]}});
+//$size
+//let result = db.student.find({friends:{$size:4}});
+//$slice
+//let result = db.student.find({friends:{$size:5}},{name:1,friends:{$slice:1}});
+//let result = db.student.find({friends:{$size:5}},{name:1,friends:{$slice:-1}});
+</code></pre> <h3 id="_11-9-where-t4611-9-where"><a href="#_11-9-where-t4611-9-where" aria-hidden="true" class="header-anchor">#</a> 11.9 where [#](#t4611.9   where)</h3> <pre><code>db.student.find({$where:&quot;this.age&gt;30&quot;},{name:1,age:1});
+</code></pre> <h3 id="_11-10-cursor-t4711-10-cursor"><a href="#_11-10-cursor-t4711-10-cursor" aria-hidden="true" class="header-anchor">#</a> 11.10 cursor [#](#t4711.10   cursor)</h3> <pre><code>var result = db.student.find();
+
+//while(result.hasNext()){
+//    printjson(result.next());
+//}
+
+result.forEach(element=&gt;printjson(element));
+</code></pre> <h2 id="_12-条件操作符-t4812-条件操作符"><a href="#_12-条件操作符-t4812-条件操作符" aria-hidden="true" class="header-anchor">#</a> 12. 条件操作符 [#](#t4812. 条件操作符)</h2> <p>条件操作符用于比较两个表达式并从mongoDB集合中获取数据</p> <h3 id="_12-1-大于操作符-t4912-1-大于操作符"><a href="#_12-1-大于操作符-t4912-1-大于操作符" aria-hidden="true" class="header-anchor">#</a> 12.1 大于操作符 [#](#t4912.1 大于操作符)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find({&lt;key&gt;:{$gt:&lt;value&gt;}})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name 集合名称</li> <li>key 字段</li> <li>value 值</li></ul> <p>查询age 大于 30的数据</p> <pre><code>db.students.find({age:{$gt:30}})
+</code></pre> <h3 id="_12-2-大于等于操作符-t5012-2-大于等于操作符"><a href="#_12-2-大于等于操作符-t5012-2-大于等于操作符" aria-hidden="true" class="header-anchor">#</a> 12.2 大于等于操作符 [#](#t5012.2 大于等于操作符)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find({&lt;key&gt;:{$gte:&lt;value&gt;}})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name 集合名称</li> <li>key 字段</li> <li>value 值</li></ul> <p>查询age 3大于等于30 的数据</p> <pre><code>db.students.find({age: {$gte: 30}})
+</code></pre> <h3 id="_12-3-小于操作符-t5112-3-小于操作符"><a href="#_12-3-小于操作符-t5112-3-小于操作符" aria-hidden="true" class="header-anchor">#</a> 12.3 小于操作符 [#](#t5112.3 小于操作符)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find( {&lt;key&gt;:{$lt:&lt;value&gt;}})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name集合名称</li> <li>key 字段</li> <li>value 值</li></ul> <p><strong>实例</strong></p> <pre><code>db.students.find({age: {$lt: 30}}) 查询age 小于30的数据
+</code></pre> <p><img src="assets/3.mongodb-16-3.png" alt></p> <h3 id="_12-4-小于等于操作符-t5212-4-小于等于操作符"><a href="#_12-4-小于等于操作符-t5212-4-小于等于操作符" aria-hidden="true" class="header-anchor">#</a> 12.4 小于等于操作符 [#](#t5212.4 小于等于操作符)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find({&lt;key&gt;:{$lte:&lt;value&gt;}})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name集合名词</li> <li>key字段</li> <li>value值</li></ul> <p>查询age 小于等于30的数据</p> <pre><code>db.students.find({age: {$lte: 30}})
+</code></pre> <h3 id="_12-5-同时使用-gte和-lte-t5312-5-同时使用-gte和-lte"><a href="#_12-5-同时使用-gte和-lte-t5312-5-同时使用-gte和-lte" aria-hidden="true" class="header-anchor">#</a> 12.5 同时使用 $gte和$lte [#](#t5312.5 同时使用 $gte和$lte)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find({&lt;key&gt;:{$gte:&lt;value&gt;},&lt;key&gt;:{$lte:&lt;value&gt;}})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name 集合名称</li> <li>key 字段</li> <li>value 值</li></ul> <p><strong>实例</strong> 查询age 大于等于 30 并且 age 小于等于 50 的数据</p> <pre><code>db.students.find({age: {$gte: 30, $lte: 50}})
+</code></pre> <h3 id="_12-6-等于-t5412-6-等于"><a href="#_12-6-等于-t5412-6-等于" aria-hidden="true" class="header-anchor">#</a> 12.6 等于 [#](#t5412.6 等于)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find({&lt;key&gt;:&lt;value&gt;,&lt;key&gt;:&lt;value&gt;})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name集合名词</li> <li>key字段</li> <li>value值</li></ul> <p>查询age = 30的数据</p> <pre><code>db.students.find({&quot;age&quot;: 30})`
+</code></pre> <h3 id="_12-7-使用-id进行查询-t5512-7-使用-id进行查询"><a href="#_12-7-使用-id进行查询-t5512-7-使用-id进行查询" aria-hidden="true" class="header-anchor">#</a> 12.7 使用 _id进行查询 [#](#t5512.7 使用 _id进行查询)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find({&quot;_id&quot; : ObjectId(&quot;value&quot;)})
+</code></pre> <p><strong>参数</strong></p> <ul><li>value <code>_id</code>的值</li></ul> <p><strong>实例</strong> 查询_id是 562af23062d5a57609133974 数据</p> <pre><code>&gt; db.students.find({_id:ObjectId(&quot;5adb666ecd738e9771638985&quot;)});
+{ &quot;_id&quot; : ObjectId(&quot;5adb666ecd738e9771638985&quot;), &quot;name&quot; : &quot;zzzz&quot; }
+</code></pre> <h3 id="_12-8-查询结果集的条数-t5612-8-查询结果集的条数"><a href="#_12-8-查询结果集的条数-t5612-8-查询结果集的条数" aria-hidden="true" class="header-anchor">#</a> 12.8 查询结果集的条数 [#](#t5612.8 查询结果集的条数)</h3> <p><strong>语法</strong></p> <pre><code>db.collectoin_name.find().count()
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name 集合名称</li></ul> <p><strong>实例</strong></p> <pre><code>db.students.find().count()
+</code></pre> <h3 id="_12-9-正则匹配-t5712-9-正则匹配"><a href="#_12-9-正则匹配-t5712-9-正则匹配" aria-hidden="true" class="header-anchor">#</a> 12.9 正则匹配 [#](#t5712.9 正则匹配)</h3> <p><strong>语法</strong></p> <pre><code>db.collection.find({key:/value/})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name 集合名称</li> <li>key 字段</li> <li>value 值</li></ul> <p><strong>实例</strong> 查询name里包含zhang的数据</p> <pre><code>db.students.find({name:/value/})
+</code></pre> <p>查询某个字段的值当中是否以另一个值开头</p> <pre><code>db.students.find({name:/^zhang/})
+</code></pre> <h2 id="_13-与和或-t5813-与和或"><a href="#_13-与和或-t5813-与和或" aria-hidden="true" class="header-anchor">#</a> 13. 与和或 [#](#t5813. 与和或)</h2> <h3 id="_13-1-and-t5913-1-and"><a href="#_13-1-and-t5913-1-and" aria-hidden="true" class="header-anchor">#</a> 13.1 and [#](#t5913.1 and)</h3> <p>find方法可以传入多个键(key)，每个键(key)以逗号隔开</p> <p><strong>语法</strong></p> <pre><code>db.collection_name.find({key1:value1, key2:value2})
+</code></pre> <p><strong>实例</strong> 查询name是zxmf并且age是1的数据</p> <pre><code>db.students.find({name:'zxmf',age:1})
+</code></pre> <h3 id="_13-2-or-t6013-2-or"><a href="#_13-2-or-t6013-2-or" aria-hidden="true" class="header-anchor">#</a> 13.2 or [#](#t6013.2 or)</h3> <p><strong>语法</strong></p> <pre><code>db.collection_name.find(
+   {
+      $or: [
+   {key1: value1}, {key2:value2}
+      ]
+   }
+)
+</code></pre> <p><strong>实例</strong> 查询age = 30 或者 age = 50 的数据</p> <pre><code>db.students.find({$or:[{age:30},{age:50}]})
+</code></pre> <h3 id="_13-3-and和or联用-t6113-3-and和or联用"><a href="#_13-3-and和or联用-t6113-3-and和or联用" aria-hidden="true" class="header-anchor">#</a> 13.3 and和or联用 [#](#t6113.3 and和or联用)</h3> <p><strong>语法</strong></p> <pre><code>db.collection_name.find(
+   {
+     key1:value1,
+     key2:value2,
+     $or: [
+   {key1: value1},
+   {key2:value2}
+     ]
+   }
+)
+</code></pre> <p><strong>实例</strong> 查询 name是zxmf 并且 age是30 或者 age是 50 的数据</p> <pre><code>db.students.find({name:'zxmf',$or:[{age:30},{age:50}]})
+</code></pre> <h2 id="_14-分页查询-t6214-分页查询"><a href="#_14-分页查询-t6214-分页查询" aria-hidden="true" class="header-anchor">#</a> 14. 分页查询 [#](#t6214. 分页查询)</h2> <h3 id="_14-1-limit-t6314-1-limit"><a href="#_14-1-limit-t6314-1-limit" aria-hidden="true" class="header-anchor">#</a> 14.1 limit [#](#t6314.1 limit)</h3> <p>读取指定数量的数据记录 <strong>语法</strong></p> <pre><code>db.collectoin_name.find().limit(number)
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name集合</li> <li>number读取的条数</li></ul> <p><strong>实例</strong> 查询前3条数据</p> <pre><code>db.students.find().limit(3)
+</code></pre> <h3 id="_14-2-skip-t6414-2-skip"><a href="#_14-2-skip-t6414-2-skip" aria-hidden="true" class="header-anchor">#</a> 14.2 skip [#](#t6414.2 skip)</h3> <p>跳过指定数量的数据，skip方法同样接受一个数字参数作为跳过的记录条数 <strong>语法</strong></p> <pre><code>db.collectoin_name.find().skip(number)
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name集合</li> <li>number跳过的条数</li></ul> <p><strong>实例</strong> 查询3条以后的数据</p> <pre><code>db.students.find().skip(3)
+</code></pre> <h3 id="_14-3-skip-limit-t6514-3-skip-limit"><a href="#_14-3-skip-limit-t6514-3-skip-limit" aria-hidden="true" class="header-anchor">#</a> 14.3 skip+limit [#](#t6514.3 skip+limit)</h3> <p>通常用这种方式来实现分页功能 <strong>语法</strong></p> <pre><code>db.collectoin_name.find().skip(skipNum).limit(limitNum)
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name 集合名称</li> <li>skipNum 跳过的条数</li> <li>limitNum 限制返回的条数</li></ul> <p><strong>实例</strong> 查询在4-6之间的数据</p> <pre><code>db.students.find().skip(3).limit(3);
+</code></pre> <h3 id="_14-4-sort排序-t6614-4-sort排序"><a href="#_14-4-sort排序-t6614-4-sort排序" aria-hidden="true" class="header-anchor">#</a> 14.4 sort排序 [#](#t6614.4 sort排序)</h3> <p>sort()方法可以通过参数指定排序的字段，并使用 1 和 -1 来指定排序的方式，其中 1 为升序排列，而-1是用于降序排列。 <strong>语法</strong></p> <pre><code>db.collectoin_name.find().sort({key:1})
+db.collectoin_name.find().sort({key:-1})
+</code></pre> <p><strong>参数</strong></p> <ul><li>collectoin_name集合</li> <li>key表示字段</li></ul> <p><strong>实例</strong> 查询出并升序排序 {age:1} age表示按那个字段排序 1表示升序</p> <pre><code>db.students.find().sort({age:1})
+</code></pre> <h3 id="_15-执行脚本-t6715-执行脚本"><a href="#_15-执行脚本-t6715-执行脚本" aria-hidden="true" class="header-anchor">#</a> 15. 执行脚本 [#](#t6715. 执行脚本)</h3> <pre><code>var username = 'zxmf';
+var password = '123456';
+var user = { &quot;username&quot;: username, &quot;password&quot;: password };
+var db = connect('students');//选择users数据库
+var result = db.users.insert(user);
+print('write ' + result);
+
+
+var start = Date.now();
+var db = connect('students');
+for (var i = 0; i &lt; 1000; i++) {
+    db.users.insert({ &quot;username&quot;: &quot;zxmf&quot; + i });
+}
+var cost = Date.now() - start;
+print('cost ' + cost + ' ms');
+
+
+var start = Date.now();
+var db = connect('students');
+var users = [];
+for (var i = 0; i &lt; 1000; i++) {
+    users.push({ &quot;username&quot;: &quot;zxmf&quot; + i });
+}
+db.users.insert(users);
+var cost = Date.now() - start;
+print('cost ' + cost + ' ms');
+</code></pre> <h3 id="_16-索引-t6816-索引"><a href="#_16-索引-t6816-索引" aria-hidden="true" class="header-anchor">#</a> 16 索引 [#](#t6816 索引)</h3> <pre><code>db.users.getIndexes();
+db.users.ensureIndex({name:1});
+db.users.find({someother:'28903',name:'huqo3vx'}).hint({someother:1});
+
+db.articles.ensureIndex({content:'text'});
+db.articles.find({$text:{$search:&quot;1&quot;}});
+db.articles.find({$text:{$search:&quot;1 2 3 -4&quot;}});
+db.articles.find({$text:{$search:&quot;1 2 3 -4&quot;}});
+db.articles.find({$text:{$search:&quot;\&quot;2 3\&quot;&quot;}});
+</code></pre> <h3 id="备份与导出"><a href="#备份与导出" aria-hidden="true" class="header-anchor">#</a> 备份与导出 <a href="#t69%E5%A4%87%E4%BB%BD%E4%B8%8E%E5%AF%BC%E5%87%BA">#</a></h3> <pre><code>mongodump
+    -- host 127.0.0.1
+    -- port 27017
+    -- out D:/databack/backup
+    -- collection mycollection
+    -- db test
+    -- username
+    -- password
+//mongodump --host 127.0.0.1 --port 27017 --out ./backup --collection users --db school
+//db.users.drop();
+
+mongorestore
+--host
+--port
+--username
+--password
+
+mongorestore --host 127.0.0.1 --port 27017 D://backup/
+</code></pre> <h3 id="权限"><a href="#权限" aria-hidden="true" class="header-anchor">#</a> 权限 <a href="#t70%E6%9D%83%E9%99%90">#</a></h3> <pre><code>db.createUser({
+    user:'zxmf',
+    pwd:'123456',
+    customData:{
+        name:'zhangximufeng',
+        email:'zhangximufeng@126.com',
+        age:18
+    },
+    roles:[
+        {
+          role:'readWrite',
+          db:'school'
+        },
+        'read'
+    ]
+});
+// db.system.users.remove({user:'zxmf'});
+// mongod --auth
+// mongo -u zxmf -p 123456 127.0.0.1:27017/admin
+</code></pre> <h2 id="附录"><a href="#附录" aria-hidden="true" class="header-anchor">#</a> 附录 <a href="#t71%E9%99%84%E5%BD%95">#</a></h2> <h3 id="objectid构成"><a href="#objectid构成" aria-hidden="true" class="header-anchor">#</a> ObjectId构成 <a href="#t72ObjectId%E6%9E%84%E6%88%90">#</a></h3> <p>之前我们使用MySQL等关系型数据库时，主键都是设置成自增的。但在分布式环境下，这种方法就不可行了，会产生冲突。为此，MongoDB采用了一个称之为ObjectId的类型来做主键。ObjectId是一个12字节的 BSON 类型字符串。按照字节顺序，一次代表：</p> <ul><li>4字节：UNIX时间戳</li> <li>3字节：表示运行MongoDB的机器</li> <li>2字节：表示生成此_id的进程</li> <li>3字节：由一个随机数开始的计数器生成的值</li></ul> <h2 id="附录-2"><a href="#附录-2" aria-hidden="true" class="header-anchor">#</a> 附录 <a href="#t73%E9%99%84%E5%BD%95">#</a></h2> <h3 id="mongodb启动命令mongod参数说明"><a href="#mongodb启动命令mongod参数说明" aria-hidden="true" class="header-anchor">#</a> Mongodb启动命令mongod参数说明 <a href="#t74Mongodb%E5%90%AF%E5%8A%A8%E5%91%BD%E4%BB%A4mongod%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E">#</a></h3> <p>选项</p> <p>含义</p> <p>--port</p> <p>指定服务端口号，默认端口27017</p> <p>--logpath</p> <p>指定MongoDB日志文件，注意是指定文件不是目录</p> <p>--logappend</p> <p>使用追加的方式写日志</p> <p>--dbpath</p> <p>指定数据库路径</p> <p>--directoryperdb</p> <p>设置每个数据库将被保存在一个单独的目录</p> <h2 id="集合命令"><a href="#集合命令" aria-hidden="true" class="header-anchor">#</a> 集合命令 <a href="#t75%E9%9B%86%E5%90%88%E5%91%BD%E4%BB%A4">#</a></h2> <ul><li><p>db.students.help();</p></li> <li><p>DBCollection help</p></li> <li><p>db.students.find().help() - show DBCursor help 显示游标帮助</p></li> <li><p>db.students.count() 显示条数</p></li> <li><p>db.students.copyTo(newColl) - duplicates collection by copying all docum ents to newColl; no indexes are copied. 把一个旧集合拷贝到一个新的集合，不拷贝索引</p></li> <li><p>db.students.convertToCapped(maxBytes) - calls {convertToCapped:'students ', size:maxBytes}} command</p></li> <li><p>db.students.dataSize() 数据大小</p></li> <li><p>db.students.distinct( key ) - e.g. db.students.distinct( 'x' ) 统计唯一的key的数量</p></li> <li><p>db.students.drop() drop the collection ，删除集合</p></li> <li><p>db.students.dropIndex(index) - e.g. db.students.dropIndex( &quot;indexName&quot; ) 删除索引 or db.students.dropIndex( { &quot;indexKey&quot; : 1 } )</p></li> <li><p>db.students.dropIndexes() 删除 所有的索引</p></li> <li><p>db.students.ensureIndex(keypattern[,options]) - options is an object wit h these possible fields: name, unique, dropDups 添加索引</p></li> <li><p>db.students.reIndex()</p></li> <li><p>db.students.find([query],[fields]) - query is an optional query filter. fields is optional set of fields to return. 查找文档</p> <pre><code>     e.g. db.students.find( {x:
+</code></pre> <p>77} , {name:1, x:1} )</p></li> <li><p>db.students.find(...).count() 数量</p></li> <li><p>db.students.find(...).limit(n) 限制返回的条数</p></li> <li><p>db.students.find(...).skip(n) 设置跳过的条数</p></li> <li><p>db.students.find(...).sort(...) 排序</p></li> <li><p>db.students.findOne([query]) 查找一条</p></li> <li><p>db.students.findAndModify( { update : ... , remove : bool [, query: {}, sort: {}, 'new': false] } ) 查找并且修改 更新后的值，是否删除，查询条件 排序 是否返回新值</p></li> <li><p>db.students.getDB() get DB object associated with collection 获得DB</p></li> <li><p>db.students.getPlanCache() get query plan cache associated with collecti on</p></li> <li><p>db.students.getIndexes() 获取索引</p></li> <li><p>db.students.group( { key : ..., initial: ..., reduce : ...[, cond: ...] } ) 分组统计</p></li> <li><p>db.students.insert(obj) 插入文档</p></li> <li><p>db.students.mapReduce( mapFunction , reduceFunction , ) 统计</p></li> <li><p>db.students.aggregate( [pipeline], ) - performs an agg regation on a collection; returns a cursor 聚合</p></li> <li><p>db.students.remove(query) 删除</p></li> <li><p>db.students.renameCollection( newName , ) renames the colle ction. 重命名集合</p></li> <li><p>db.students.runCommand( name , ) runs a db command with the gi ven name where the first param is the collection name</p></li> <li><p>db.students.save(obj) 保存对象</p></li> <li><p>db.students.stats() 统计信息</p></li> <li><p>db.students.storageSize() - includes free space allocated to this collec tion</p></li> <li><p>db.students.totalIndexSize() - size in bytes of all the indexes</p></li> <li><p>db.students.totalSize() - storage allocated for all data and indexes</p></li> <li><p>db.students.update(query, object[, upsert_bool, multi_bool]) - instead o f two flags, you can pass an object with fields: upsert, multi 更新</p></li> <li><p>db.students.validate( ) - SLOW</p></li> <li><p>db.students.getShardVersion() - only for use with sharding</p></li> <li><p>db.students.getShardDistribution() - prints statistics about data distri bution in the cluster</p></li> <li><p>db.students.getSplitKeysForChunks( ) - calculates split p oints over all chunks and returns splitter function</p></li> <li><p>db.students.getWriteConcern() - returns the write concern used for any o perations on this collection, inherited from server/db if set</p></li> <li><p>db.students.setWriteConcern( ) - sets the write conc ern for writes to the collection</p></li> <li><p>db.students.unsetWriteConcern( ) - unsets the write concern for writes to the collection</p></li></ul></div> <!----> <div class="content page-nav"><p class="inner"><span class="prev">
+          ← <a href="/fe/28.redux-jwt-front.html" class="prev">
+            生成项目
+          </a></span> <span class="next"><a href="/fe/40.deploy.html">
+            服务器部署步骤
+          </a> →
+        </span></p></div> <div id="comment-container"><div class="gt-container"><div class="gt-initing"><i class="gt-loader"></i> <p class="gt-initing-text">Gitalking ...</p></div> <!----> <!----> <div><div class="gt-header"><a class="gt-avatar-github"><span class="gt-ico gt-ico-github"><span class="gt-svg"><svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M64 524C64 719.602 189.356 885.926 364.113 947.017 387.65799 953 384 936.115 384 924.767L384 847.107C248.118 863.007 242.674 773.052 233.5 758.001 215 726.501 171.5 718.501 184.5 703.501 215.5 687.501 247 707.501 283.5 761.501 309.956 800.642 361.366 794.075 387.658 787.497 393.403 763.997 405.637 743.042 422.353 726.638 281.774 701.609 223 615.67 223 513.5 223 464.053 239.322 418.406 271.465 381.627 251.142 320.928 273.421 269.19 276.337 261.415 334.458 256.131 394.888 302.993 399.549 306.685 432.663 297.835 470.341 293 512.5 293 554.924 293 592.81 297.896 626.075 306.853 637.426 298.219 693.46 258.054 747.5 262.966 750.382 270.652 772.185 321.292 753.058 381.083 785.516 417.956 802 463.809 802 513.5 802 615.874 742.99 701.953 601.803 726.786 625.381 750.003 640 782.295 640 818.008L640 930.653C640.752 939.626 640 948.664978 655.086 948.665 832.344 888.962 960 721.389 960 524 960 276.576 759.424 76 512 76 264.577 76 64 276.576 64 524Z"></path>
+</svg>
+</span> <!----></span></a> <div class="gt-header-comment"><textarea placeholder="Leave a comment" class="gt-header-textarea"></textarea> <div class="gt-header-preview markdown-body hide"></div> <div class="gt-header-controls"><a href="https://guides.github.com/features/mastering-markdown/" target="_blank" class="gt-header-controls-tip"><span class="gt-ico gt-ico-tip"><span class="gt-svg"><svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M512 366.949535c-16.065554 0-29.982212 13.405016-29.982212 29.879884l0 359.070251c0 16.167882 13.405016 29.879884 29.982212 29.879884 15.963226 0 29.879884-13.405016 29.879884-29.879884L541.879884 396.829419C541.879884 380.763865 528.474868 366.949535 512 366.949535L512 366.949535z"
+    p-id="3083"></path>
+  <path d="M482.017788 287.645048c0-7.776956 3.274508-15.553912 8.80024-21.181973 5.525732-5.525732 13.302688-8.80024 21.181973-8.80024 7.776956 0 15.553912 3.274508 21.079644 8.80024 5.525732 5.62806 8.80024 13.405016 8.80024 21.181973 0 7.776956-3.274508 15.656241-8.80024 21.181973-5.525732 5.525732-13.405016 8.697911-21.079644 8.697911-7.879285 0-15.656241-3.274508-21.181973-8.697911C485.292295 303.301289 482.017788 295.524333 482.017788 287.645048L482.017788 287.645048z"
+    p-id="3084"></path>
+  <path d="M512 946.844409c-239.8577 0-434.895573-195.037873-434.895573-434.895573 0-239.8577 195.037873-434.895573 434.895573-434.895573 239.755371 0 434.895573 195.037873 434.895573 434.895573C946.895573 751.806535 751.755371 946.844409 512 946.844409zM512 126.17088c-212.740682 0-385.880284 173.037274-385.880284 385.777955 0 212.740682 173.037274 385.777955 385.880284 385.777955 212.740682 0 385.777955-173.037274 385.777955-385.777955C897.777955 299.208154 724.740682 126.17088 512 126.17088z"
+    p-id="3085"></path>
+</svg>
+</span> <span class="gt-ico-text">Markdown is supported</span></span></a> <!----> <button class="gt-btn gt-btn-preview"><span class="gt-btn-text">Preview</span> <!----></button> <button class="gt-btn gt-btn-login"><span class="gt-btn-text">Login with GitHub</span> <!----></button></div></div></div> <div class="gt-comments"><span></span> <p class="gt-comments-null">
+                Be the first guy leaving a comment!
+            </p> <!----></div></div></div></div></div></div> <!----></div> <div class="tool-group"><!----></div></div> <!----></div> <div class="background-mask" style="background:#f6f6f6;"></div></div></div>
+    <script src="/assets/js/app.35b69267.js" defer></script><script src="/assets/js/60.0cedb385.js" defer></script>
+  </body>
+</html>
